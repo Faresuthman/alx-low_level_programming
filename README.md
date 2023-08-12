@@ -1,1 +1,1 @@
-my first day on C
+walo walo ta la3ba walo
