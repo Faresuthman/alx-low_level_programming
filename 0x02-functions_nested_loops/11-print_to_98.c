@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * print_to_98
+ * print_to_98 - print n to 98 counts
  *
  * @n: takes number input
 */
