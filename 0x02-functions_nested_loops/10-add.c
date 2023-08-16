@@ -1,41 +1,15 @@
-#include"main.h"
-
+#include "main.h"
 /**
- * print_times_table - prints time table of n
+ * add - add 2 integers
+ *@a: first input
+ *@b: second input
  *
- * @n: takes number input
-*/
+ * Return: sum  of a and b
+ */
 
-void print_times_table(int n)
+int add(int a. int b)
 {
-	int prod, mult, num;
+	int sum = a + b;
 
-	if (n <= 15 && n >= 0)
-	{
-		for (num = 0; num <= n; ++num)
-		{
-			_putchar(48);
-			for (mult = 1; mult <= n; ++mult)
-			{
-				_putchar(',');
-				_putchar(' ');
-
-				prod = num * mult;
-
-				if (prod <= 9)
-					_putchar(' ');
-				if (prod <= 99)
-					_putchar(' ');
-
-				if (prod >= 100)
-				{
-					_putchar((prod / 100) + 48);
-					_putchar((prod / 10) % 10 + 48);
-				} else if (prod <= 99 && prod >= 10)
-					_putchar((prod / 10) + 48);
-				_putchar((prod % 10) + 48);
-			}
-			_putchar('\n');
-		}
-	}
+	return (sum);
 }
