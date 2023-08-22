@@ -1,20 +1,17 @@
 #include "main.h"
 /**
-*_puts - prints a string
-*@str: A pointer to an int that will be changed
+*_strlen - returns the length of a string
+*@s: string parameter input
 *
-*Return: void which means our answer is correct
+*Return: l of s
 */
 
-void _puts(char *str)
+int _strlen(char *s)
 {
-	char *c;
-	int m;
-	
-	c = str;
-	for (m = 0; c[m]; m++)
-	{
-		_putchar (c[m]);
-	}
-	_putchar('\n');
+	int counter;
+
+	for (counter = 0; *s != '\0'; s++)
+		++counter;
+
+	return (counter);
 }
