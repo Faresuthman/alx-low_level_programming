@@ -2,25 +2,25 @@
 
 /**
  * print_number - print numbers chars
- * @u: integer parans
+ * @n: integer parans
  * Return: 0
  */
 
-void print_number(int u)
+void print_number(int n)
 {
-	unsigned int u1;
+	unsigned int n1;
 
-	u1 = u;
+	n1 = n;
 
-	if (u < 0)
+	if (n < 0)
 	{
 		_putchar('-');
-		u1 = -u;
+		n1 = -n;
 	}
 
-	if (u1 / 10 != 0)
+	if (n1 / 10 != 0)
 	{
-		print_number(u1 / 10);
+		print_number(n1 / 10);
 	}
-	-putchar((u1 % 10) + '0');
+	-putchar((n1 % 10) + '0');
 }
