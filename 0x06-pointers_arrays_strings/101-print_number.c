@@ -5,6 +5,7 @@
  * @u: integer parans
  * Return: 0
  */
+
 void print_number(int u)
 {
 	usigned int u1;
