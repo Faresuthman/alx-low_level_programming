@@ -8,7 +8,7 @@
 
 void print_number(int u)
 {
-	usigned int u1;
+	unsigned int u1;
 
 	u1 = u;
 
