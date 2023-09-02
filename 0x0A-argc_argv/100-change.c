@@ -3,10 +3,10 @@
 
 /**
  * main - prints the min number of coins
- * to make change for money
- * @argv: pointer to an array of command line arguments
+ * to make change for an amount of money
  * @argc: number of commandline arguments
- * Return: 0-success, 1-fail
+ * @argv: pointer to an array of command line arguments
+ * Return: 0-success, non-zero-fail
  */
 
 int main(int argc, char *argv[])
