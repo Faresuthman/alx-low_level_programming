@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main-print sum of 2 number
+ * main-print sum of 2 numbers
  * @argc: number of commandlines arguments
  * @argv: pointer to an array of command line arguments
  * Return 0-success, non-zero-fail
