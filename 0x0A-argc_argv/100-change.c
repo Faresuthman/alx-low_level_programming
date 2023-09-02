@@ -8,6 +8,7 @@
  * @argc: number of commandline arguments
  * Return: 0-success, 1-fail
  */
+
 int main(int argc, char *argv[])
 {
 	if (argc == 2)
